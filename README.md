@@ -8,10 +8,10 @@ Original data is from PetFinder.my. The modified version is from Kaggle competit
 
 ## 1 Data Cleaning
 ### Feature Engineering
-Delete four features: Name, RescureID, PetID, Description, but we can explore the Description in the future
-Feature Age: Include Age >= 192 for cats (2 enties) and Age >= 211 for dogs (4 enties), where 192 and 211 are average lifespan for cats and dogs in month, respectively; also, age can be treated as cluster in the future
-Feature Breed: Delete five rows where Breed1 == 0, but Breed2 != 0
-Feature VideoAmt and PhotoAmt: Can be treated as binary classes in the future
+#### Delete four features: Name, RescureID, PetID, Description, but we can explore the Description in the future
+#### Feature Age: Include Age >= 192 for cats (2 enties) and Age >= 211 for dogs (4 enties), where 192 and 211 are average lifespan for cats and dogs in month, respectively; also, age can be treated as cluster in the future
+#### Feature Breed: Delete five rows where Breed1 == 0, but Breed2 != 0
+#### Feature VideoAmt and PhotoAmt: Can be treated as binary classes in the future
 
 ## 2 Potential Models
 Logistic Regression
