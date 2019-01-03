@@ -18,12 +18,16 @@ Delete five rows where Breed1 == 0, but Breed2 != 0
 Can be treated as binary classes in the future
 
 ## 2 Potential Models
-Logistic Regression
-K Nearest Neighborhood
-Naive Bayes
-Support Vector Machine
-Decision Tree
-Neural Network
+* Decision Tree
+    * Random Forest
+    * Xgboost
+    * LightGBM
+* K Nearest Neighbor 
+* Naive Bayes
+* Support Vector Machine (Clustering needed)
+* Logistic Regression (Clustering needed)
+* Neural Network
+
 ## 3 Hyperparatemer Tuning
 In this section, we attemp to select the best parameter for each model.
 ## 4 Best Model
