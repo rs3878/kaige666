@@ -40,7 +40,4 @@ In this section, we attemp to select the best parameter for each model.
 In this sectuon, we attemp to select the best model.
 
 # Schedule
-### 2019-01-04 Deadline for Data Cleaning
-### 2019-01-06 Potential Models
-### 2019-01-07 Hyperparameter Tuning
-### 2019-0-20 Best Model
+### February 2nd or 3rd
