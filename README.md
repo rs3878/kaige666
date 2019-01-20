@@ -10,12 +10,19 @@ Original data is from PetFinder.my. The modified version is from Kaggle competit
 ### Feature Engineering
 #### Delete four features
 Name, RescureID, PetID, Description, but we can explore the Description in the future
+#### Separate dogs and cats and trian them separately
 #### Feature Age
 Include Age >= 192 for cats (2 enties) and Age >= 211 for dogs (4 enties), where 192 and 211 are average lifespan for cats and dogs in month, respectively; also, age can be treated as cluster in the future
+Classify Age 0 to 12 by month and Age 13 above by year
 #### Feature Breed
 Delete five rows where Breed1 == 0, but Breed2 != 0
+Classify by mixed, pure and popular breeds
 #### Feature VideoAmt and PhotoAmt
 Can be treated as binary classes in the future
+#### Train_image
+No useful information from Train_image
+#### Train_sentiment
+Extract document sentimental scores and magnituds
 
 ## 2 Potential Models
 * Decision Tree
