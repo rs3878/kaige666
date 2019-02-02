@@ -12,10 +12,16 @@ Original data is from PetFinder.my. The modified version is from Kaggle competit
 Name, RescureID, PetID, Description, but we can explore the Description in the future
 #### Feature Age
 Include Age >= 192 for cats (2 enties) and Age >= 211 for dogs (4 enties), where 192 and 211 are average lifespan for cats and dogs in month, respectively; also, age can be treated as cluster in the future
+Classify Age 0 to 12 by month and Age 13 above by year
 #### Feature Breed
 Delete five rows where Breed1 == 0, but Breed2 != 0
+Classify by mixed, pure and popular breeds
 #### Feature VideoAmt and PhotoAmt
 Can be treated as binary classes in the future
+#### Train_image
+No useful information from Train_image
+#### Train_sentiment
+Extract document sentimental scores and magnituds
 
 ## 2 Potential Models
 * Decision Tree
@@ -34,7 +40,4 @@ In this section, we attemp to select the best parameter for each model.
 In this sectuon, we attemp to select the best model.
 
 # Schedule
-### 2019-01-04 Deadline for Data Cleaning
-### 2019-01-06 Potential Models
-### 2019-01-07 Hyperparameter Tuning
-### 2019-0-20 Best Model
+### February 2nd or 3rd
